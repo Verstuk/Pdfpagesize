@@ -70,7 +70,7 @@ for filename in files:
             with open(outputFilename, "wb") as out:
                 pdf_writer.write(out)
         else:
-            outputFilename = "Неформат/{}-{}.pdf".format(filename, (page + 1))
+            outputFilename = "Unformat/{}-{}.pdf".format(filename, (page + 1))
             with open(outputFilename, "wb") as out:
                 pdf_writer.write(out)
 
