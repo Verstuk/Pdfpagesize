@@ -74,7 +74,7 @@ for filename in files:
             with open(outputFilename, "wb") as out:
                 pdf_writer.write(out)
 
-            unformat = str(w, '*', h)
+            unformat = str(str(w), '*', str(h))
             pageSizesList.append(unformat)
 
     # pdf.close()
