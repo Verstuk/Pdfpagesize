@@ -89,7 +89,7 @@ for filename in files:
             pageSizesList.append(unformat)
             print(pageSizesList)
 
-    
+
 
 ta4 = 'A4: ' + str(a4)
 ta3 = 'A3: ' + str(a3)
@@ -196,3 +196,9 @@ if __name__ == "__main__":
     ui.setupUi(Form)
     Form.show()
     sys.exit(app.exec_())
+
+
+
+
+
+
